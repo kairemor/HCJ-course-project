@@ -1,0 +1,57 @@
+body
+{
+	 margin : 0px ; 
+	 paddig : 0px ; 
+
+.titre
+{
+	float  : left ;
+	clear : both ;
+	z-index : 1000;
+	
+}
+.div1
+{		
+	width : 300px ;
+	height : 250px ;
+	background-color : #Faa ;
+	border  : 10px double red ;
+	border-radius : 10px ;
+	float : right ; 
+	clear : both  ;
+}
+.div2
+{
+	position : absolute  ; 
+	right : 50% ; 
+	float : right ; 
+	width : 400px ;
+	height : 200px ;
+	background-color : yellow ;
+	border : 1Opx blue green;
+	 padding : 20px ; 
+	margin :Opx auto ;
+	z-index : 100
+	
+
+}	
+.p1
+{
+	/* display : inline ; */
+	/* border : 10px solid black ; */
+}
+.p2
+{
+	/* display : none ; */
+	
+}	
+.p3
+{
+	
+	
+}
+.p4
+{
+	
+	
+}

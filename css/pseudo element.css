@@ -1,0 +1,34 @@
+p::first-letter 
+{
+	font-size : 30px ;
+	text-shadow : 2px 2px 20px orange;
+	text-transform : uppercase ;
+}	
+/* p::first-line */
+{
+	background-color : blue ;
+}
+a
+{
+	color : #fff ;
+}
+a:link
+{
+	color : green ;
+}
+a:visited
+{
+	color : #fff ;
+}
+h2::selection
+{
+	background-color : orange ;
+}
+h2::before
+{
+	content : "this is the para make by the pseudo element ::before " ;
+}	
+h2::after 
+{
+	content : url("hqdefault.jpg") ;
+}

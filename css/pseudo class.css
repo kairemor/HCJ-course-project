@@ -1,0 +1,34 @@
+a:link
+{
+	color : #F0c ;
+}
+h2:hover 
+{
+	background-color : red ;
+	display : inline ;
+}	
+a:visited
+{
+	color : red	;
+}	
+/* p:first-child */
+{
+	color : yellow ;
+}
+/* p:last-child */
+{
+	color : rgb(200,100,50) ;
+}	
+p:nth-child(2)
+{
+	color : #aaa ;
+}	
+	
+	
+
+
+
+
+
+
+

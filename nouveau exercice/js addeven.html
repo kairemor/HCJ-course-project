@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+	<HEAD>
+		<TITLE> add even listener </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="">
+	</head>
+	<body>
+		<h1> titre de la page </h1>
+		<p mouseover="this.innerHTML='kaire'"  id="phrase"> cliquer moi </p>
+	<script>
+		var p1 = document.getElementById('phrase') ;
+		p1.addEventListener("mouseover" , change) ;
+		function change(){
+		alert('merci'); };
+	</script>
+	</body>
+</html>
+

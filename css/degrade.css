@@ -1,0 +1,38 @@
+body
+{
+	margin : 0px ;
+	padding : 0px ;
+	
+}	
+.div1
+{
+	height : 400px ; 
+	width : 400px ;
+	background-color : blue ;
+	float : left  ;
+	background : -webkit-radial-gradient(left , blue ,green , yellow) ;
+	background : -o-radial-gradient(left, blue ,green , yellow ) ;
+	background : -moz-radial-gradient(left , blue ,green , yellow ) ;
+	background : radial-gradient(to left , blue ,green , yellow ) ;
+}
+.div2
+{
+	height : 400px ;
+	width : 400px ;
+	float : right ;
+	background : -webkit-radial-gradient(right , blue ,green , red) ;
+	background : -o-radial-gradient(left, blue ,green , red ) ;
+	background : -moz-radial-gradient(left , blue ,green , red ) ;
+	background : radial-gradient(to left , blue ,green , red) ;
+}
+.div3
+{
+	height : 400px ;
+	width : 400px ;
+	position : absolute ;
+	left : 35%;
+	background : -webkit-linear-gradient(right , blue ,green , red) ;
+	background : -o-linear-gradient(left, blue ,green , red ) ;
+	background : -moz-linear-gradient(left , blue ,green , red ) ;
+	background : linear-gradient(to left , blue ,green , red) ;
+}

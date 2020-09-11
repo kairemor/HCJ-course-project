@@ -1,0 +1,88 @@
+/* @mediad screen and(min-width=1379px) */
+
+#selection1 , #selection2 , #selection3
+{
+	font-size : 16Px ;
+	font-weight : normal ;
+	text-transform : capitalize ; 
+}	
+legend
+{
+	text-transform : uppercase ;
+	font-size : 18px ;
+	font-weight : bold ;
+}	
+#selection1 input
+{
+	width : 300px ;
+	height :20px ;
+	position : absolute ;
+	left : 30% ;
+	font-family: verdana ;
+}	
+#selection1
+{
+	background-color : rgb(100 , 150 ,200 ) ;
+	padding : 10px ;
+	margin : 20px ;
+}
+#selection1:hover
+{
+	box-shadow : 0px 0px 20px yellow ;
+	background-color : rgb(110 ,160 , 210) ;
+}	
+#selection2:hover
+{
+	box-shadow : 0px 0px 20px green ;
+	background-color : rgb(200 ,0 , 100) ;
+}	
+#selection3:hover
+{
+	box-shadow : 0px 0px 20px red ;
+	background-color : rgb(1 ,10 , 210) ;
+}	
+#selection2
+{
+	background-color : rgb(200 , 150 ,100 ) ;
+	padding : 10px ;
+	margin : 20px ;
+}
+#selection3
+{
+	background-color : rgb(100 ,200 ,150 ) ;
+	padding : 10px ;
+	margin : 20px ;
+}
+option
+{
+	font-family : serif ;
+	font-style : italic ;
+}
+textarea
+{
+	position : absolute ;
+	left : 20% ;
+}	
+input[type="submit"]
+{
+	background-color : red ;
+	position : absolute ;
+	right : 10% ;
+	text-align  : center ;
+	font-family : sans-serif ;
+	text-transform : uppercase ;
+	border-radius : 15PX ;
+	width : 100px ;
+	height : 20PX ;
+}	
+input[type="submit"]:hover 
+{
+	background-color : rgb(255 , 10 , 10 ) ;
+	box-shadow : 1px 1px 20px blue ;
+	border-bottom-style : inset ;
+}	
+}
+
+
+
+

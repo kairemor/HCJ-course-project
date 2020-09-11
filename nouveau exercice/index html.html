@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<title> page html </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="index css.css">
+	</head>
+	<body>
+		<p class="quiz"> ceci est un quizz </p>
+		<p id="merci"> </p>
+		<form>
+			<p> quizz <p/>
+	 <label for="quizz"> en quelle annee ept est crée ?<label> <br>
+	<input id="quizz" name="reponse1" type="radio"> 1987 </input> <br>
+	<input id="quizz" name="reponse1" type="radio"> 1986 </input> <br>
+	<input id="quizz" name="reponse1" type="radio"> 1973 </input> <br>
+	<input type="submit" value="validez" onclick="document.getElementById			     ('merci').innerHTML='merci de jouer la quizz'" > </input>	
+	<input type="submit" value="envoyez" > </input>
+	<script>
+	var p1= document.getElementById('quiz');
+	p1.addEvenListener('mouseover' , change ) ;
+	function change(){
+		this.innerHTML="merci d'avoir passer dessus votre souris"
+		} ;
+	var para = document.createElement('p') ;
+	var text = document.createTextNode("Merci de jouer à ma  quizz sur html") ;
+	para.className="quiz";
+	document.body.appendChild(para); 
+	para.appendChild(text) ;
+	</script>
+	</body>
+	

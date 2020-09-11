@@ -1,0 +1,25 @@
+body
+{
+	margin : 0px;
+	padding : 0px ;
+	font-family : serif ;
+}	
+h2
+{
+}	
+h1
+{
+	position : absolute ;
+	left : 40% ;
+	right : 40% ;
+}	
+.div1
+{
+	background-color : REd ;
+	border : 10px double  black ;
+	height : 50px ;
+	width : 300px ;
+	margin : 50px auto ;
+	
+	
+}	

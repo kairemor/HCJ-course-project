@@ -1,0 +1,21 @@
+.p1
+{
+	color : red ;
+	font-size : 180 px ;
+	font-style : oblique;
+	font-family = verdana, serif ;
+}
+#p1
+{
+	color : blue ;
+	font-style : oblique ;
+}
+.p2
+{
+	color : gray;
+	background-color : green ;
+}
+#para
+{
+	font-weight : bold ;
+}	

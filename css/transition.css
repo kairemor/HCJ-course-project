@@ -1,0 +1,13 @@
+div
+{
+	width : 300px ;
+	height : 300PX ;
+	background-color : red ;
+	transition : 2s background-color 3s ease , 3s width 2s ease ;
+}
+
+div:hover
+{
+	width : 600px ;
+	background-color : blue ;
+}	

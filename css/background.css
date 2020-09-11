@@ -1,0 +1,11 @@
+body
+{
+	margin : 0px;
+	padding : 0px ;
+	font-family : serif ;
+	background-image : url("hqdefault.jpg") , url("../baye.jpg") ;
+	background-repeat : no-repeat , repeat-y ;
+	background-position : 50% , 25% ;
+	background-attachment : fixed , scroll;
+	
+}	

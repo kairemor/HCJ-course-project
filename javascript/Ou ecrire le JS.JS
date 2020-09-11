@@ -1,0 +1,1 @@
+alert("premier dams un autre fichier joint extension .js") ;

@@ -1,0 +1,26 @@
+body
+{
+	margin : 0px;
+	padding : 0px ;
+	font-family : serif ;
+}	
+h2
+{
+	float : right ;
+	clear :both  ;
+}	
+h1
+{
+	float : right ;
+	clear : left ;
+}	
+.div1
+{
+	background-color : REd ;
+	border : 10px double  black ;
+	height : 50px ;
+	width : 300px ;
+	overflow : scroll ;
+	
+	
+}	

@@ -1,0 +1,56 @@
+body
+{
+	font-family : 'century gothic' , calibri , serif ;
+	font-size  : 13px ;
+	margin: 0px;
+	padding : 0px ;
+}
+h1
+{
+	font-size : 40px;
+	font-weight : normal;
+	text-align : center ;
+}
+header
+{
+	height : 100px ;
+}
+footer
+{
+	height : 80px ;
+	padding-top : 30PX ;
+	text-align : center ;
+	background-color : #c5C5C5 ;
+	border : 2px solid #aaa;
+}
+nav
+{
+	width: 100% ;
+	background-color: #424558 ;
+}
+nav ul 
+{
+	margin: 0px;
+	padding : 0px ;
+}
+nav li
+{	
+	list-style-type: none ;
+	float: left ;
+}
+nav a 
+{
+	display: inline-block ;
+	text-decoration : none ;
+	padding : 20px 30px ;
+	color : #fff ;
+	font-size :  15PX ;
+	text-transform : uppercase ;	
+}	
+.menu
+{
+	display: table ; 
+	margin: auto ;
+}	
+	
+	

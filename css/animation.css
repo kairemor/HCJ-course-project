@@ -1,0 +1,15 @@
+div
+{
+ss	width : 300px ;
+	height : 400px ;
+	background-color : green ;
+	animation : 	couleur 7s infinite ;
+	position : absolute ;
+}
+@keyframes couleur 
+{
+	0%{background-color : green; left : 0px ; height : 400PX} 
+	35%{background-color : yellow; left: 400px ; height : 300px }
+	75%{background-color : red; left: 400px ; top: 5OOpx	 ;height : 200px  } 
+	100%{background-color : blue; left: 200px ; top : 250px ;height : 100px   }
+}	

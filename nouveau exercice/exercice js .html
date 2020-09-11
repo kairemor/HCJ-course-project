@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="lien.css">
+	</head>
+	<body>
+		<button id="ouvrir"> cliquer pour ouvrir une fenetre </button>
+		<button id="fermer"> cliquer pour fermet l'onglet ouvert</button>
+		<button id="modifier"> cliquer pour modifier la taille de la fenetre </button>
+
+		<p> cliquer ici pour demarre une  evenement </p> 
+		
+		<script>
+				var ouvrir = document.getElementById('ouvrir') ;
+				var fermer = document.getElementById('fermer');
+				var modifier= document.getElementById('modifier');
+				var p1=  document.querySelector('p');
+				var fenetre = "" ; 
+
+
+				ouvrir.addEventListener('click' , fOuvrir);
+				modifier.addEventListener('click' , fModifier);
+				fermer.addEventListener('click' , fFermer); 
+				p1.addEventListener('click' , jeSaisPas);
+				
+				function jeSaisPas(){
+				this.innerHTML='<strong> merci de m avoir cliquer </strong>' ;};
+				function fOuvrir(){
+					fenetre = window.open('http://google.com' ,'_blank' , 'width=500');
+									}
+	
+				function fModifier(){
+					fenetre.resizeTo(300,300) ;
+									} ;
+
+				function fFermer(){
+					fenetre.close();
+									} ;
+				
+				
+				
+		</script>
+	<body>
+</html>

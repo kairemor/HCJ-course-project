@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+		<title> les formulaires </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="formulaire.css">
+	</head>
+	<body>
+		<h2>formulaire d'inscription de campusen<h2>
+		<form method="post" action="pas encore.php">
+			<label for="prenom">prenom</label>
+			<input id="prenom" name="prenom" type="text"><br> <br>
+			
+			<label for="nom"> nom </label>
+			<input id="nom" name="nom" type="text"  > <br> <br>
+			
+			<label for="naissance"> date de naissance </label>
+			<input id="naissance" type="date" name="naissance"> <br> <br>
+			
+			<label for="lieu">lieu de naissance </label> 
+			<input id="lieu" type="text" name="lieu"><br> <br>
+			
+			sexe <br>
+			<input id="homme" name="sexe" type="radio" value="homme">
+			<label for="homme"> homme</label> <br>
+			<input id="femme" name="sexe" type="radio" value="femme">
+			<label for="femme"> femme</label> <br><br>
+			
+			<label for="numero" > numero de telephone </label>
+			<input type="number" id="numero" name="numero"> <br> <br>
+			
+			<label for="email" > email </label>
+			<input id="email" type="email" name="email"> <br> <br>
+			
+			<label for="password" > votre mot de passe </label>
+			<input type="password" id="password" name="mot de passe"><br>
+			
+			
+			<label for="password1" > confirmer votre mot de passe </label> 
+			<input type="password" id="password1" name="confirmer mot de passe"> <br><br>
+			<input type="submit" value="envoyer"> <br> <br>
+			
+			langue(s) parle(s)   <br>
+			<input type="checkbox" id="francais"  name="langue">
+			<label for="francais" > francais </label> <br>
+			<input type="checkbox" id="wolof"  name="langue">
+			<label for="wolof" > wolof </label> <br>
+			<input type="checkbox" id="anglais"  name="langue">
+			<label for="anglais" > anglais </label> <br>
+			<input type="checkbox" id="espagnole"  name="langue">
+			<label for="espagnole" > espagnole </label> <br>
+			
+			pays <br>
+			
+			<select name="pays">
+				<option value="senegal">senegal</option>
+				<option value="gambie">gambie</option>
+				<option value="gabon">gabon</option>
+				<option value="mali">mali</option>
+				<option value="angleterre">angleterre</option>
+			<select>	
+			<br><br>
+
+				
+			
+			
+			
+			<label for="commentaire"> votre commentaire </label>
+			<textarea id="commentaire" name="commentaire">  </textarea>
+			<input type="submit" value="envoiyer"> <br> <br>
+			
+			
+			
+			
+			
+			
+		
+		
+		</form>
+	</body>
+</html>

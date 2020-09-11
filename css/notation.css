@@ -1,0 +1,21 @@
+h2
+{
+	font-style : italic ;
+	font-weight : bold ;
+	font-size : 20px ;
+	line-height : 30px ;
+	font-family  : sans-serif , serif ;
+	
+	background-color :  #FFc ;
+	background-image : url("hqdefault.jpg") ;
+	background-repeat : no-repeat ;
+	background-position : left top ;
+	background-attachment : scroll ;
+	color : #ccf ;
+}
+p
+{
+	font : italic bold  20px/30px  sans-serif , serif ;
+	background  : #ffc  url("hqdefault.jpg") no-repeat left top scroll ;
+	color : #ccf ;
+}	

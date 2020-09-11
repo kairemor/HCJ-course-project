@@ -1,0 +1,48 @@
+/* .div1 
+{
+	
+	font-size : 100px ;
+	letter-spacing : 15px ;
+	position  : absolute ;
+	left : 20% ;
+	right : 30% ;
+	text-transform : uppercase ;
+	font-family : cerdana ;
+}	*/
+h1
+{
+	font-size : 100px ;
+	letter-spacing : 15px ;
+	position  : absolute ;
+	left : 20% ;
+	right : 30% ;
+	text-transform : uppercase ;
+	font-family : cerdana ;
+}
+#para
+{
+	position : absolute;
+	left : 40% ;
+	font-size : 20px ;
+}		
+.span1
+{
+	color : green ;
+}
+.span2
+{
+	color : yellow ;
+}
+.span3
+{
+	color : yellow ;
+}.span4
+{
+	color : red ;
+}.span5
+{
+	color : rgb(200 , 100 , 100 ) ;
+}.span6
+{
+	color : green ;
+}

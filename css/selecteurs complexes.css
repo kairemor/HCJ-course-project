@@ -1,0 +1,29 @@
+/* * 
+{
+	border : 1px solid red ;
+}	
+*/
+/* div , p */
+{
+	color : green ;
+}	
+/* div + p */
+{
+	color : red ;
+}	
+/* div > p */
+{
+	/* color : orange ; */
+}	
+ /* div > p  */
+{
+	/* color : orange ; */
+}	
+/* div[class] */
+{
+	/* color : blue ; */
+}	
+div[class="div1"]
+{
+	color : #0CF ;
+}	
